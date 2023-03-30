@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+    <title>nunc</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--import header-->
+      <div id="header"></div>
+      <!--main section part-->
+      <section class="main">
+        <div class="mainnews-item">
+          <div class="mainnews-photo">
+            <img src="images/tanuki.jpg" alt="tanuki" />
+          </div>
+          <p class="mainnews-p1">
+            <a href="#">
+              【衝撃】「タヌキは日本以外では激レアで空想上の生物と思ってる人もいる」ってガチなのか？
+              外国人に聞いてみた結果 - ロケットニュース24</a
+            >
+          </p>
+          <p class="mainnews-p2">作成日:2023-03-29</p>
+        </div>
+      </section>
+      <!--latest news part-->
+      <section class="latest">
+        <h3>Latest News</h3>
+      </section>
+
+      <!--sub news part-->
+      <section class="sub">
+        <div class="subnews">
+          <div class="subnews-photo">
+            <img src="/images/fuji.jpg" alt="fuji" />
+          </div>
+          <article class="subnews-text">
+            <a href="#">
+              <h2>
+                【LIVE】最新気象ニュース・地震情報 2023年3月29日(水)
+                ／関東はスッキリしない空続く
+              </h2>
+            </a>
+          </article>
+        </div>
+        <div class="subnews">
+          <div class="subnews-photo">
+            <img src="/images/taiwan.jpg" alt="fuji" />
+          </div>
+          <article class="subnews-text">
+            <a href="#">
+              <h2>
+                台湾総統の米国立ち寄り、中国が過剰反応する理由ない＝米高官 -
+                ロイター (Reuters Japan)
+              </h2>
+            </a>
+          </article>
+        </div>
+        <div class="subnews">
+          <div class="subnews-photo">
+            <img src="/images/tank.jpg" alt="fuji" />
+          </div>
+          <article class="subnews-text">
+            <a href="#">
+              <h2>
+                ロシア戦術核配備、ベラルーシ・ルカシェンコ大統領が受け入れ表明 -
+                読売新聞オンライン
+              </h2>
+            </a>
+          </article>
+        </div>
+        <div class="subnews">
+          <div class="subnews-photo">
+            <img src="/images/chart.jpg" alt="fuji" />
+          </div>
+          <article class="subnews-text">
+            <a href="#">
+              <h2>
+                外為12時 円、下落し131円台後半 米金利上昇で 対ユーロも下落 -
+                日本経済新聞
+              </h2>
+            </a>
+          </article>
+        </div>
+        <div class="subnews">
+          <div class="subnews-photo">
+            <img src="/images/taiwan.jpg" alt="fuji" />
+          </div>
+          <article class="subnews-text">
+            <a href="#">
+              <h2>
+                PC版「The Last of Us Part I」，SteamとEpic
+                Gamesストアで本日リリース。
+              </h2>
+            </a>
+          </article>
+        </div>
+      </section>
+      <!--import footer-->
+      <div id="footer"></div>
+    </div>
+  </body>
+</html>
